@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Санже Хохланов](https://up.htmlacademy.ru/htmlcss/30/user/1652943).
-* Наставник: [Элла Сидорова] (https://up.htmlacademy.ru/htmlcss/30/user/147338).
+* Наставник: [Элла Сидорова](https://up.htmlacademy.ru/htmlcss/30/user/147338).
 
 ---
 
