@@ -27,91 +27,92 @@
   <main>
     <h1>Магазин готовых шаблонов</h1>
     <section>
-      <form method="get" action="https://echo.htmlacademy.ru"></form>
-      <h2>Стоимость</h2>
-      <div>
-        <div>
-          <div class="price-scale">
-            <div class="price-bar"></div>
-          </div>
-          <button type="button"></button>
-          <button type="button"></button>
-        </div>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Стоимость</legend>
+          <div>
+            <div>
+              <div class="price-scale">
+                <div class="price-bar"></div>
+              </div>
+              <button type="button"></button>
+              <button type="button"></button>
+            </div>
 
-        <div class="cost-price-controls">
-          <label>от<input name="min-price" type="number" value="0" disabled></label>
-          <label class="cost-max-price">до<input name="max-price" type="number" value="15000" disabled></label>
-        </div>
-      </div>
-      <h2>Фильтр товаров</h2>
-      <fieldset>
-        <legend>сетка:</legend>
-        <ul>
-          <li>
-            <input type="radio" name="catalog-group" value="adaptive" id="filter-adaptive" checked>
-            <label for="filter-adaptive">Адаптивная</label>
-          </li>
-          <li>
-            <input type="radio" name="catalog-group" value="fixed" id="filter-fixed">
-            <label for="filter-fixed">Фиксированная</label>
-          </li>
-          <li>
-            <input type="radio" name="catalog-group" value="rubber" id="filter-rubber">
-            <label for="filter-rubber">Резиновая</label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend>особенности:</legend>
-        <ul>
-          <li>
-            <input type="checkbox" name="Slider" id="filter-slider" checked>
-            <label for="filter-slider">Слайдер</label>
-          </li>
-          <li>
-            <input type="checkbox" name="
-              Advantages block" id="filter-
-              Advantages block">
-            <label for="filter-
-              Advantages block">Блок преимуществ</label>
-          </li>
-          <li>
-            <input type="checkbox" name="news" id="filter-news" checked>
-            <label for="filter-news">Новости</label>
-          </li>
-          <li>
-            <input type="checkbox" name="
+            <div class="cost-price-controls">
+              <label>от<input name="min-price" type="number" value="0" disabled></label>
+              <label class="cost-max-price">до<input name="max-price" type="number" value="15000" disabled></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>сетка:</legend>
+          <ul>
+            <li>
+              <input type="radio" name="catalog-group" value="adaptive" id="filter-adaptive" checked>
+              <label for="filter-adaptive">Адаптивная</label>
+            </li>
+            <li>
+              <input type="radio" name="catalog-group" value="fixed" id="filter-fixed">
+              <label for="filter-fixed">Фиксированная</label>
+            </li>
+            <li>
+              <input type="radio" name="catalog-group" value="rubber" id="filter-rubber">
+              <label for="filter-rubber">Резиновая</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>особенности:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="Slider" id="filter-slider" checked>
+              <label for="filter-slider">Слайдер</label>
+            </li>
+            <li>
+              <input type="checkbox" name="
+              advantages block" id="filter-
+              advantages block">
+              <label for="filter-
+              advantages block">Блок преимуществ</label>
+            </li>
+            <li>
+              <input type="checkbox" name="news" id="filter-news" checked>
+              <label for="filter-news">Новости</label>
+            </li>
+            <li>
+              <input type="checkbox" name="
               gallery" id="filter-
               gallery">
-            <label for="filter-
+              <label for="filter-
               gallery">Галерея</label>
-          </li>
-          <li>
-            <input type="checkbox" name="
+            </li>
+            <li>
+              <input type="checkbox" name="
               basket" id="filter-
               basket">
-            <label for="filter-
+              <label for="filter-
               basket">Корзина</label>
-          </li>
-        </ul>
-      </fieldset>
-      <button type="submit">Показать</button>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
       </form>
     </section>
     <section>
       <p>Сортировать</p>
       <ul>
         <li>
-          <p>По цене</p>
+          <a>По цене</a>
         </li>
         <li>
-          <p>По типу</p>
+          <a>По типу</a>
         </li>
         <li>
-          <p>По названию</p>
+          <a>По названию</a>
         </li>
         <li>
-          <p>&#9660;</p>
+          <a>&#9660;</a>
         </li>
         <li>
           <p>&#9650;</p>
