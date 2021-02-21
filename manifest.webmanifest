@@ -1,6 +1,16 @@
 {
   "icons": [
     {
+      "src": "32.svg",
+      "type": "image/svg",
+      "sizes": "32x32"
+    },
+    {
+      "src": "180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
       "src": "192.png",
       "type": "image/png",
       "sizes": "192x192"
