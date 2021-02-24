@@ -1,0 +1,51 @@
+/* Fonts */
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/roboto.woff2") format("woff2"),
+  url("../fonts/roboto.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  @font-face {
+    font-family: "roboto";
+    src: url("../fonts/robotomedium.woff2") format("woff2"),
+    url("../fonts/robotomedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+font-family: "roboto";
+src: url("../fonts/robotobold.woff2") format("woff2"),
+url("../fonts/robotobold.woff") format("woff");
+font-weight: 700;
+font-style: normal;
+}
+
+/* Variables */
+
+:root {
+--background-white: #EEEEEE;
+--black-bold: #000000;
+--text-buttons: #FFFFFF;
+--selected-button: #C4C4C4;
+--basic-paragraphs: #283136;
+--last-paragraph: #444444;
+--icon-cart: #A6A6A6;
+--basic-background-buttons: #FB565A;
+--button-services-second: #00CA74;
+--button-services-three: #EFC849;
+--guidance-button-three: #EAB534;
+--pressing-button-three: #E5A722;
+--item-card-paragraph: #666666;
+--guidance-buttons: #E74246;
+--pressing-buttons: #D7373B;
+--guidance-button-second: #00BC6C;
+--pressing-button-second: #00AA62;
+--guidance-background-white: #DFDFDF;
+--pressing-background-white: #D5D5D5;
+--active-background-white: #DBDBDB;
+--check-mark: #4D4D4D;
+}
